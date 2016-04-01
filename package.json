@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Helper functions for integrating CakePHP 3 and react-forms",
   "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "test": "mocha --compilers js:babel-core/register ./test/**/*.js",
     "build": "babel src -d lib"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Adam Royle <adam@ifunk.net>",
+  "license": "MIT",
   "dependencies": {
     "flat": "^2.0.0",
     "lodash": "^4.7.0"
