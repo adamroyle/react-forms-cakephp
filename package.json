@@ -1,6 +1,6 @@
 {
   "name": "react-forms-cakephp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Helper functions for integrating CakePHP 3 and react-forms",
   "main": "lib/index.js",
   "files": [
